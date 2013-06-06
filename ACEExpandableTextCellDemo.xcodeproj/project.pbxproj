@@ -17,7 +17,7 @@
 		7BE399AE175FBA43004921A1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE399AD175FBA43004921A1 /* Default@2x.png */; };
 		7BE399B0175FBA43004921A1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE399AF175FBA43004921A1 /* Default-568h@2x.png */; };
 		7BE399B3175FBA43004921A1 /* ACEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE399B2175FBA43004921A1 /* ACEViewController.m */; };
-		7BE399BF175FBB2E004921A1 /* ACEExpandableTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE399BE175FBB2E004921A1 /* ACEExpandableTextCell.m */; };
+		7BF2866917615249003DEE8B /* ACEExpandableTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF2866817615249003DEE8B /* ACEExpandableTextCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,8 +36,8 @@
 		7BE399AF175FBA43004921A1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7BE399B1175FBA43004921A1 /* ACEViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACEViewController.h; sourceTree = "<group>"; };
 		7BE399B2175FBA43004921A1 /* ACEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACEViewController.m; sourceTree = "<group>"; };
-		7BE399BD175FBB2E004921A1 /* ACEExpandableTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACEExpandableTextCell.h; sourceTree = "<group>"; };
-		7BE399BE175FBB2E004921A1 /* ACEExpandableTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACEExpandableTextCell.m; sourceTree = "<group>"; };
+		7BF2866717615249003DEE8B /* ACEExpandableTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACEExpandableTextCell.h; path = ACEExpandableTextCell/ACEExpandableTextCell.h; sourceTree = SOURCE_ROOT; };
+		7BF2866817615249003DEE8B /* ACEExpandableTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACEExpandableTextCell.m; path = ACEExpandableTextCell/ACEExpandableTextCell.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +57,7 @@
 		7BE3998D175FBA43004921A1 = {
 			isa = PBXGroup;
 			children = (
+				7BE399BC175FBB13004921A1 /* ACEExpandableTextCell */,
 				7BE3999F175FBA43004921A1 /* ACEExpandableTextCellDemo */,
 				7BE39998175FBA43004921A1 /* Frameworks */,
 				7BE39997175FBA43004921A1 /* Products */,
@@ -84,7 +85,6 @@
 		7BE3999F175FBA43004921A1 /* ACEExpandableTextCellDemo */ = {
 			isa = PBXGroup;
 			children = (
-				7BE399BC175FBB13004921A1 /* ACEExpandableTextCell */,
 				7BE399A8175FBA43004921A1 /* ACEAppDelegate.h */,
 				7BE399A9175FBA43004921A1 /* ACEAppDelegate.m */,
 				7BE399B1175FBA43004921A1 /* ACEViewController.h */,
@@ -111,10 +111,11 @@
 		7BE399BC175FBB13004921A1 /* ACEExpandableTextCell */ = {
 			isa = PBXGroup;
 			children = (
-				7BE399BD175FBB2E004921A1 /* ACEExpandableTextCell.h */,
-				7BE399BE175FBB2E004921A1 /* ACEExpandableTextCell.m */,
+				7BF2866717615249003DEE8B /* ACEExpandableTextCell.h */,
+				7BF2866817615249003DEE8B /* ACEExpandableTextCell.m */,
 			);
-			path = ACEExpandableTextCell;
+			name = ACEExpandableTextCell;
+			path = ACEExpandableTextCellDemo/ACEExpandableTextCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,7 +187,7 @@
 				7BE399A6175FBA43004921A1 /* main.m in Sources */,
 				7BE399AA175FBA43004921A1 /* ACEAppDelegate.m in Sources */,
 				7BE399B3175FBA43004921A1 /* ACEViewController.m in Sources */,
-				7BE399BF175FBB2E004921A1 /* ACEExpandableTextCell.m in Sources */,
+				7BF2866917615249003DEE8B /* ACEExpandableTextCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
