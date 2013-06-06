@@ -9,7 +9,7 @@
 #import "ACEViewController.h"
 #import "ACEExpandableTextCell.h"
 
-@interface ACEViewController ()<ACEExpandableTableView> {
+@interface ACEViewController ()<ACEExpandableTableViewDelegate> {
     CGFloat _cellHeight[2];
 }
 

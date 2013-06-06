@@ -74,9 +74,9 @@
 
 - (void)textViewDidChange:(UITextView *)theTextView
 {
-    if ([self.expandableTableView.delegate conformsToProtocol:@protocol(ACEExpandableTableView)]) {
+    if ([self.expandableTableView.delegate conformsToProtocol:@protocol(ACEExpandableTableViewDelegate)]) {
         
-        id<ACEExpandableTableView> delegate = (id<ACEExpandableTableView>)self.expandableTableView.delegate;
+        id<ACEExpandableTableViewDelegate> delegate = (id<ACEExpandableTableViewDelegate>)self.expandableTableView.delegate;
         NSIndexPath *indexPath = [self.expandableTableView indexPathForCell:self];
         
         // update the text

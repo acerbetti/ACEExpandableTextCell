@@ -23,7 +23,7 @@
 
 #import <UIKit/UIKit.h>
 
-@protocol ACEExpandableTableView <UITableViewDelegate>
+@protocol ACEExpandableTableViewDelegate <UITableViewDelegate>
 
 - (void)tableView:(UITableView *)tableView updatedHeigh:(CGFloat)height atIndexPath:(NSIndexPath *)indexPath;
 - (void)tableView:(UITableView *)tableView updatedText:(NSString *)text atIndexPath:(NSIndexPath *)indexPath;
