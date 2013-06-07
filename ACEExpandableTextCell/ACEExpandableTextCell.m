@@ -23,11 +23,11 @@
 
 #import "ACEExpandableTextCell.h"
 
-#define kPadding 4
+#define kPadding 5
 
 @interface ACEExpandableTextCell ()<UITextViewDelegate>
 @property (nonatomic, assign) UITableView *expandableTableView;
-@property (nonatomic, strong) UITextView *textView;
+@property (nonatomic, strong) SZTextView *textView;
 @end
 
 #pragma mark -
@@ -43,10 +43,14 @@
     return self;
 }
 
-- (UITextView *)textView
+- (SZTextView *)textView
 {
     if (_textView == nil) {
-        _textView = [[UITextView alloc] initWithFrame:self.contentView.bounds];
+        CGRect cellFrame = self.contentView.bounds;
+        cellFrame.origin.y += kPadding;
+        cellFrame.size.height -= kPadding;
+        
+        _textView = [[SZTextView alloc] initWithFrame:cellFrame];
         _textView.delegate = self;
         
         _textView.autoresizingMask = UIViewAutoresizingFlexibleWidth|UIViewAutoresizingFlexibleHeight;
@@ -86,7 +90,7 @@
                 updatedText:_text
                 atIndexPath:indexPath];
         
-        CGFloat newHeight = self.textView.contentSize.height + kPadding*2;
+        CGFloat newHeight = self.textView.contentSize.height + kPadding*2 + 2.0f;
         CGFloat oldHeight = [delegate tableView:self.expandableTableView heightForRowAtIndexPath:indexPath];
         if (fabs(newHeight - oldHeight) > 0.01) {
             
@@ -113,11 +117,6 @@
         cell.expandableTableView = self;
     }
     return cell;
-}
-
-- (CGFloat)heightForExpandableTextAtIndexPath:(NSIndexPath *)indexPath
-{
-    return 0;
 }
 
 @end

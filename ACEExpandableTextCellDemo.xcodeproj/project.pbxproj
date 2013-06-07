@@ -18,6 +18,7 @@
 		7BE399B0175FBA43004921A1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BE399AF175FBA43004921A1 /* Default-568h@2x.png */; };
 		7BE399B3175FBA43004921A1 /* ACEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE399B2175FBA43004921A1 /* ACEViewController.m */; };
 		7BF2866917615249003DEE8B /* ACEExpandableTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF2866817615249003DEE8B /* ACEExpandableTextCell.m */; };
+		7BF2867517616087003DEE8B /* SZTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF2867417616087003DEE8B /* SZTextView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,8 @@
 		7BE399B2175FBA43004921A1 /* ACEViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACEViewController.m; sourceTree = "<group>"; };
 		7BF2866717615249003DEE8B /* ACEExpandableTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ACEExpandableTextCell.h; path = ACEExpandableTextCell/ACEExpandableTextCell.h; sourceTree = SOURCE_ROOT; };
 		7BF2866817615249003DEE8B /* ACEExpandableTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ACEExpandableTextCell.m; path = ACEExpandableTextCell/ACEExpandableTextCell.m; sourceTree = SOURCE_ROOT; };
+		7BF2867317616087003DEE8B /* SZTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZTextView.h; sourceTree = "<group>"; };
+		7BF2867417616087003DEE8B /* SZTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZTextView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 		7BE3998D175FBA43004921A1 = {
 			isa = PBXGroup;
 			children = (
+				7BF2867217616087003DEE8B /* SZTextView */,
 				7BE399BC175FBB13004921A1 /* ACEExpandableTextCell */,
 				7BE3999F175FBA43004921A1 /* ACEExpandableTextCellDemo */,
 				7BE39998175FBA43004921A1 /* Frameworks */,
@@ -116,6 +120,16 @@
 			);
 			name = ACEExpandableTextCell;
 			path = ACEExpandableTextCellDemo/ACEExpandableTextCell;
+			sourceTree = "<group>";
+		};
+		7BF2867217616087003DEE8B /* SZTextView */ = {
+			isa = PBXGroup;
+			children = (
+				7BF2867317616087003DEE8B /* SZTextView.h */,
+				7BF2867417616087003DEE8B /* SZTextView.m */,
+			);
+			name = SZTextView;
+			path = SZTextView/Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +202,7 @@
 				7BE399AA175FBA43004921A1 /* ACEAppDelegate.m in Sources */,
 				7BE399B3175FBA43004921A1 /* ACEViewController.m in Sources */,
 				7BF2866917615249003DEE8B /* ACEExpandableTextCell.m in Sources */,
+				7BF2867517616087003DEE8B /* SZTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

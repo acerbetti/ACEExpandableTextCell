@@ -1,0 +1,3 @@
+[submodule "SZTextView"]
+	path = SZTextView
+	url = git://github.com/glaszig/SZTextView.git

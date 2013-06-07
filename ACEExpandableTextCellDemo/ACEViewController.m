@@ -41,6 +41,7 @@
 {
     ACEExpandableTextCell *cell = [tableView expandableTextCellWithId:@"cellId"];
     cell.text = [self.cellData objectAtIndex:indexPath.section];
+    cell.textView.placeholder = @"Placeholder";
     return cell;
 }
 
@@ -49,7 +50,7 @@
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return MAX(44.0, _cellHeight[indexPath.section]);
+    return MAX(50.0, _cellHeight[indexPath.section]);
 }
 
 - (void)tableView:(UITableView *)tableView updatedHeigh:(CGFloat)height atIndexPath:(NSIndexPath *)indexPath

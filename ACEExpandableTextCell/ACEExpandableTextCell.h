@@ -21,7 +21,7 @@
 // THE SOFTWARE.
 
 
-#import <UIKit/UIKit.h>
+#import "SZTextView.h"
 
 @protocol ACEExpandableTableViewDelegate <UITableViewDelegate>
 
@@ -35,7 +35,7 @@
 @interface ACEExpandableTextCell : UITableViewCell
 
 @property (nonatomic, assign, readonly) UITableView *expandableTableView;
-@property (nonatomic, strong, readonly) UITextView *textView;
+@property (nonatomic, strong, readonly) SZTextView *textView;
 
 @property (nonatomic, strong) NSString *text;
 
@@ -47,8 +47,5 @@
 
 // return the cell with the specified ID. It takes care of the dequeue if necessary
 - (ACEExpandableTextCell *)expandableTextCellWithId:(NSString *)cellId;
-
-// retunr the height of the expandable text
-- (CGFloat)heightForExpandableTextAtIndexPath:(NSIndexPath *)indexPath;
 
 @end
