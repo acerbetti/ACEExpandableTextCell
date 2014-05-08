@@ -1,6 +1,6 @@
 //  ACEExpandableTextCell.m
 //
-// Copyright (c) 2013 Stefano Acerbetti
+// Copyright (c) 2014 Stefano Acerbetti
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -76,6 +76,16 @@
 
 #pragma mark - Text View Delegate
 
+- (BOOL)textViewShouldBeginEditing:(UITextView *)textView
+{
+    // make sure the cell is at the top
+    [self.expandableTableView scrollToRowAtIndexPath:[self.expandableTableView indexPathForCell:self]
+                                    atScrollPosition:UITableViewScrollPositionTop
+                                            animated:YES];
+    
+    return YES;
+}
+
 - (void)textViewDidChange:(UITextView *)theTextView
 {
     if ([self.expandableTableView.delegate conformsToProtocol:@protocol(ACEExpandableTableViewDelegate)]) {
@@ -90,14 +100,18 @@
                 updatedText:_text
                 atIndexPath:indexPath];
         
-        CGFloat newHeight = self.textView.contentSize.height + kPadding*2 + 2.0f;
+        CGFloat newHeight = [self.textView sizeThatFits:CGSizeMake(self.textView.frame.size.width, FLT_MAX)].height + kPadding*2;
         CGFloat oldHeight = [delegate tableView:self.expandableTableView heightForRowAtIndexPath:indexPath];
         if (fabs(newHeight - oldHeight) > 0.01) {
             
             // update the height
             [delegate tableView:self.expandableTableView
-                   updatedHeigh:newHeight
+                  updatedHeight:newHeight
                     atIndexPath:indexPath];
+            
+            // refresh the table without closing the keyboard
+            [self.expandableTableView beginUpdates];
+            [self.expandableTableView endUpdates];
         }
     }
 }

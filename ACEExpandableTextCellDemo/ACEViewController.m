@@ -53,12 +53,9 @@
     return MAX(50.0, _cellHeight[indexPath.section]);
 }
 
-- (void)tableView:(UITableView *)tableView updatedHeigh:(CGFloat)height atIndexPath:(NSIndexPath *)indexPath
+- (void)tableView:(UITableView *)tableView updatedHeight:(CGFloat)height atIndexPath:(NSIndexPath *)indexPath
 {
     _cellHeight[indexPath.section] = height;
-    //[self.tableView reloadRowsAtIndexPaths:@[ indexPath ] withRowAnimation:UITableViewRowAnimationTop];
-    [self.tableView beginUpdates];
-    [self.tableView endUpdates];
 }
 
 - (void)tableView:(UITableView *)tableView updatedText:(NSString *)text atIndexPath:(NSIndexPath *)indexPath

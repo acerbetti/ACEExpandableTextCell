@@ -1,6 +1,6 @@
 //  ACEExpandableTextCell.h
 //
-// Copyright (c) 2013 Stefano Acerbetti
+// Copyright (c) 2014 Stefano Acerbetti
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -25,7 +25,7 @@
 
 @protocol ACEExpandableTableViewDelegate <UITableViewDelegate>
 
-- (void)tableView:(UITableView *)tableView updatedHeigh:(CGFloat)height atIndexPath:(NSIndexPath *)indexPath;
+- (void)tableView:(UITableView *)tableView updatedHeight:(CGFloat)height atIndexPath:(NSIndexPath *)indexPath;
 - (void)tableView:(UITableView *)tableView updatedText:(NSString *)text atIndexPath:(NSIndexPath *)indexPath;
 
 @end
