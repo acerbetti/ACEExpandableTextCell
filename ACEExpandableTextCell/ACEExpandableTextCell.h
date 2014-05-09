@@ -25,8 +25,11 @@
 
 @protocol ACEExpandableTableViewDelegate <UITableViewDelegate>
 
-- (void)tableView:(UITableView *)tableView updatedHeight:(CGFloat)height atIndexPath:(NSIndexPath *)indexPath;
+@required
 - (void)tableView:(UITableView *)tableView updatedText:(NSString *)text atIndexPath:(NSIndexPath *)indexPath;
+
+@optional
+- (void)tableView:(UITableView *)tableView updatedHeight:(CGFloat)height atIndexPath:(NSIndexPath *)indexPath;
 
 @end
 
@@ -34,9 +37,10 @@
 
 @interface ACEExpandableTextCell : UITableViewCell
 
-@property (nonatomic, assign, readonly) UITableView *expandableTableView;
+@property (nonatomic, weak, readonly) UITableView *expandableTableView;
 @property (nonatomic, strong, readonly) SZTextView *textView;
 
+@property (nonatomic, readonly) CGFloat cellHeight;
 @property (nonatomic, strong) NSString *text;
 
 @end

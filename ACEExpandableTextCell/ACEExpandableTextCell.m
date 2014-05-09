@@ -73,6 +73,11 @@
     self.textView.text = text;
 }
 
+- (CGFloat)cellHeight
+{
+    return [self.textView sizeThatFits:CGSizeMake(self.textView.frame.size.width, FLT_MAX)].height + kPadding * 2;
+}
+
 
 #pragma mark - Text View Delegate
 
@@ -100,14 +105,16 @@
                 updatedText:_text
                 atIndexPath:indexPath];
         
-        CGFloat newHeight = [self.textView sizeThatFits:CGSizeMake(self.textView.frame.size.width, FLT_MAX)].height + kPadding*2;
+        CGFloat newHeight = [self cellHeight];
         CGFloat oldHeight = [delegate tableView:self.expandableTableView heightForRowAtIndexPath:indexPath];
         if (fabs(newHeight - oldHeight) > 0.01) {
             
             // update the height
-            [delegate tableView:self.expandableTableView
-                  updatedHeight:newHeight
-                    atIndexPath:indexPath];
+            if ([delegate respondsToSelector:@selector(tableView:updatedHeight:atIndexPath:)]) {
+                [delegate tableView:self.expandableTableView
+                      updatedHeight:newHeight
+                        atIndexPath:indexPath];
+            }
             
             // refresh the table without closing the keyboard
             [self.expandableTableView beginUpdates];
