@@ -26,7 +26,7 @@
 #define kPadding 5
 
 @interface ACEExpandableTextCell ()<UITextViewDelegate>
-@property (nonatomic, assign) UITableView *expandableTableView;
+@property (nonatomic, weak) UITableView *expandableTableView;
 @property (nonatomic, strong) SZTextView *textView;
 @end
 
