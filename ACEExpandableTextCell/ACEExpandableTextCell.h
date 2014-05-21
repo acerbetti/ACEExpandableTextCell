@@ -37,7 +37,7 @@
 
 @interface ACEExpandableTextCell : UITableViewCell
 
-@property (nonatomic, weak, readonly) UITableView *expandableTableView;
+@property (nonatomic, weak) UITableView *expandableTableView;
 @property (nonatomic, strong, readonly) SZTextView *textView;
 
 @property (nonatomic, readonly) CGFloat cellHeight;
