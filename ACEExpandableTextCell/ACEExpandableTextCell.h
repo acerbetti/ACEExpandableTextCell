@@ -23,7 +23,7 @@
 
 #import "SZTextView.h"
 
-@protocol ACEExpandableTableViewDelegate <UITableViewDelegate>
+@protocol ACEExpandableTableViewDelegate <UITableViewDelegate, UITextViewDelegate>
 
 @required
 - (void)tableView:(UITableView *)tableView updatedText:(NSString *)text atIndexPath:(NSIndexPath *)indexPath;

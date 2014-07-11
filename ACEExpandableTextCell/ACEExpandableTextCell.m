@@ -90,6 +90,13 @@
     return YES;
 }
 
+- (void)textViewDidBeginEditing:(UITextView *)textView
+{
+    if ([self.expandableTableView.delegate respondsToSelector:@selector(textViewDidBeginEditing:)]) {
+        [(id<ACEExpandableTableViewDelegate>)self.expandableTableView.delegate textViewDidBeginEditing:textView];
+    }
+}
+
 - (void)textViewDidChange:(UITextView *)theTextView
 {
     if ([self.expandableTableView.delegate conformsToProtocol:@protocol(ACEExpandableTableViewDelegate)]) {
