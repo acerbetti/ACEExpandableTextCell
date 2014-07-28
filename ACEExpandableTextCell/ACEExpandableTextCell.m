@@ -68,8 +68,9 @@
 {
     _text = text;
     
-    // update the UI
+    // update the UI and the cell size
     self.textView.text = text;
+    [self textViewDidChange:self.textView];
 }
 
 - (CGFloat)cellHeight
