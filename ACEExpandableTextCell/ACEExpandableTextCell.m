@@ -68,9 +68,11 @@
 {
     _text = text;
     
-    // update the UI and the cell size
+    // update the UI and the cell size with a delay to allow the cell to load
     self.textView.text = text;
-    [self textViewDidChange:self.textView];
+    [self performSelector:@selector(textViewDidChange:)
+               withObject:self.textView
+               afterDelay:0.1];
 }
 
 - (CGFloat)cellHeight
