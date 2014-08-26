@@ -30,7 +30,9 @@
 
 @optional
 - (void)tableView:(UITableView *)tableView updatedHeight:(CGFloat)height atIndexPath:(NSIndexPath *)indexPath;
-
+- (BOOL)tableView:(UITableView *)tableView textView:(UITextView*)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text;
+- (void)tableView:(UITableView *)tableView textViewDidChangeSelection:(UITextView*)textView;
+- (void)tableView:(UITableView *)tableView textViewDidEndEditing:(UITextView*)textView;
 @end
 
 #pragma mark -
