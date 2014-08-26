@@ -83,6 +83,29 @@
 
 #pragma mark - Text View Delegate
 
+-(void)textViewDidEndEditing:(UITextView *)textView{
+    if ([self.expandableTableView.delegate respondsToSelector:@selector(tableView:textViewDidEndEditing:)]) {
+        [(id<ACEExpandableTableViewDelegate>)self.expandableTableView.delegate tableView:self.expandableTableView textViewDidEndEditing:self.textView];
+    }
+}
+
+- (void)textViewDidChangeSelection:(UITextView *)textView {
+    if ([self.expandableTableView.delegate respondsToSelector:@selector(tableView:textViewDidChangeSelection:)]) {
+        [(id<ACEExpandableTableViewDelegate>)self.expandableTableView.delegate tableView:self.expandableTableView textViewDidChangeSelection:self.textView];
+    }
+}
+
+- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text {
+    if ([self.expandableTableView.delegate respondsToSelector:@selector(tableView:textView:shouldChangeTextInRange:replacementText:)]) {
+        id<ACEExpandableTableViewDelegate> delegate = (id<ACEExpandableTableViewDelegate>)self.expandableTableView.delegate;
+        return [delegate tableView:self.expandableTableView
+                          textView:textView
+           shouldChangeTextInRange:range
+                   replacementText:text];
+    }
+    return YES;
+}
+
 - (BOOL)textViewShouldBeginEditing:(UITextView *)textView
 {
     // make sure the cell is at the top
