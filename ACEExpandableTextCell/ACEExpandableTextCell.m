@@ -80,6 +80,9 @@
     return [self.textView sizeThatFits:CGSizeMake(self.textView.frame.size.width, FLT_MAX)].height + kPadding * 2;
 }
 
+- (void)updateTextViewHeight {
+    [self textViewDidChange:self.textView];
+}
 
 #pragma mark - Text View Delegate
 
