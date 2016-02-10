@@ -5,7 +5,7 @@
 `ACEExpandableTextCell` Is the  simplest way to insert a `UITextView` inside an expandable `UITableViewCell`.
 It also supports a placeholder text
 
-## Cocoapods
+## CocoaPods
 
 1. Add `pod 'ACEExpandableTextCell'` to your Podfile.
 2. Run `pod install`
