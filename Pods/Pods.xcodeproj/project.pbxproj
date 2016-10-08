@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E0A34CEF089C2FC29C8BD86192DAE73 /* ACEExpandableTextCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71D536EA1B3622DE7D9E0C7A1B9FEB2C /* ACEExpandableTextCell-dummy.m */; };
+		302F7F908FBF3BDEC5471F5AB35104D7 /* SZTextView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5673A484A4F1C0A8726F5F879F53D16F /* SZTextView-dummy.m */; };
+		3C63C68E9C9C961BA3D4C73E150288D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		4F7869BA954F6E1D8E9342466E8D9A49 /* ACEExpandableTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B17D98735705117EF68D4905EE81BB /* ACEExpandableTextCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F0195C8D86B2A3C5B0F24BE250E646B /* SZTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A64EE2E07CB249BD8F9995DDB2FC211 /* SZTextView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		70BD386688D3AFD3F0F315039FE3FE33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		771A144919BBDEEC0A184A64AA145A9A /* Pods-ACEExpandableTextCellDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1118D669B31A64296CC773F4E1EE78 /* Pods-ACEExpandableTextCellDemo-dummy.m */; };
+		92F54974238963F6CC621E5F9066AF1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		A2FC575CC8C94B40323AA810012774A6 /* SZTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = B71F0603FD82A9C332E94EBFD00C4755 /* SZTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFEC7B87D1C2BFF13CF91A7D064A79DB /* ACEExpandableTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 040757257D5C6D25CF988BDB86F61D9E /* ACEExpandableTextCell.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17489A7DCA7FC54223A9D68D34BB0142 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8966C42FBDF19BF9A30293D6BD0E1739;
+			remoteInfo = ACEExpandableTextCell;
+		};
+		4B77508089D3D4045F5C7EA01B142FDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F15FBF7D83347A28690B72430BEB95B;
+			remoteInfo = SZTextView;
+		};
+		668E68AC18D3C278E2BC0D89A1F0C4AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F15FBF7D83347A28690B72430BEB95B;
+			remoteInfo = SZTextView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040757257D5C6D25CF988BDB86F61D9E /* ACEExpandableTextCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ACEExpandableTextCell.m; sourceTree = "<group>"; };
+		07E52F4FA05DB239A30C1D6D43A1A95C /* SZTextView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SZTextView-prefix.pch"; sourceTree = "<group>"; };
+		1C1118D669B31A64296CC773F4E1EE78 /* Pods-ACEExpandableTextCellDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ACEExpandableTextCellDemo-dummy.m"; sourceTree = "<group>"; };
+		33716ABF73C870340347CCA844BD3091 /* ACEExpandableTextCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ACEExpandableTextCell.xcconfig; sourceTree = "<group>"; };
+		49B17D98735705117EF68D4905EE81BB /* ACEExpandableTextCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ACEExpandableTextCell.h; sourceTree = "<group>"; };
+		5245371B6433C480DA236A74ED99A4A6 /* Pods-ACEExpandableTextCellDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ACEExpandableTextCellDemo-resources.sh"; sourceTree = "<group>"; };
+		5673A484A4F1C0A8726F5F879F53D16F /* SZTextView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SZTextView-dummy.m"; sourceTree = "<group>"; };
+		6A64EE2E07CB249BD8F9995DDB2FC211 /* SZTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SZTextView.m; path = Classes/SZTextView.m; sourceTree = "<group>"; };
+		6B5489780A032D7B132D040CBC8E4DE7 /* libACEExpandableTextCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libACEExpandableTextCell.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		71D536EA1B3622DE7D9E0C7A1B9FEB2C /* ACEExpandableTextCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ACEExpandableTextCell-dummy.m"; sourceTree = "<group>"; };
+		7783E7C68950ABDD89554718F4E87D1A /* Pods-ACEExpandableTextCellDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ACEExpandableTextCellDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8BF92C6366D659CFE38B1401C557F283 /* ACEExpandableTextCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ACEExpandableTextCell-prefix.pch"; sourceTree = "<group>"; };
+		8EFCC38B3A8C4179A57E111896FC5343 /* SZTextView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SZTextView.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		ACF28DB2228BA42FC30E61296199D278 /* libPods-ACEExpandableTextCellDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ACEExpandableTextCellDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71F0603FD82A9C332E94EBFD00C4755 /* SZTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SZTextView.h; path = Classes/SZTextView.h; sourceTree = "<group>"; };
+		B97520434DEA04BFBE668753BF6C7A1D /* Pods-ACEExpandableTextCellDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ACEExpandableTextCellDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C070CF394AA6B1514DD02C3C2F29B0CF /* Pods-ACEExpandableTextCellDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ACEExpandableTextCellDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C27398D396D06E5A50F4DCEE06D37113 /* Pods-ACEExpandableTextCellDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ACEExpandableTextCellDemo-frameworks.sh"; sourceTree = "<group>"; };
+		C5CD7121EE9F8EB8B927362583DB150B /* Pods-ACEExpandableTextCellDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ACEExpandableTextCellDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D2CC8FD924C05238A08EA98B7A94D903 /* libSZTextView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSZTextView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D2233320F84BB4CF15B278492B04BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70BD386688D3AFD3F0F315039FE3FE33 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		662A1A3452D871FCD1FD5C3B3941F196 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C63C68E9C9C961BA3D4C73E150288D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B1F69F28E4A8A061215EB68F21C6573 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92F54974238963F6CC621E5F9066AF1E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F031B5E25BC3972D5989E4DFA9EB1C /* Pods-ACEExpandableTextCellDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7783E7C68950ABDD89554718F4E87D1A /* Pods-ACEExpandableTextCellDemo-acknowledgements.markdown */,
+				C5CD7121EE9F8EB8B927362583DB150B /* Pods-ACEExpandableTextCellDemo-acknowledgements.plist */,
+				1C1118D669B31A64296CC773F4E1EE78 /* Pods-ACEExpandableTextCellDemo-dummy.m */,
+				C27398D396D06E5A50F4DCEE06D37113 /* Pods-ACEExpandableTextCellDemo-frameworks.sh */,
+				5245371B6433C480DA236A74ED99A4A6 /* Pods-ACEExpandableTextCellDemo-resources.sh */,
+				B97520434DEA04BFBE668753BF6C7A1D /* Pods-ACEExpandableTextCellDemo.debug.xcconfig */,
+				C070CF394AA6B1514DD02C3C2F29B0CF /* Pods-ACEExpandableTextCellDemo.release.xcconfig */,
+			);
+			name = "Pods-ACEExpandableTextCellDemo";
+			path = "Target Support Files/Pods-ACEExpandableTextCellDemo";
+			sourceTree = "<group>";
+		};
+		105DA4C901725B6E610F5838CADA3835 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				33716ABF73C870340347CCA844BD3091 /* ACEExpandableTextCell.xcconfig */,
+				71D536EA1B3622DE7D9E0C7A1B9FEB2C /* ACEExpandableTextCell-dummy.m */,
+				8BF92C6366D659CFE38B1401C557F283 /* ACEExpandableTextCell-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "Pods/Target Support Files/ACEExpandableTextCell";
+			sourceTree = "<group>";
+		};
+		10FA22CE66EA8E2398CC78A2D5801EA0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				09F031B5E25BC3972D5989E4DFA9EB1C /* Pods-ACEExpandableTextCellDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3CE104910BEDDA3FF0F74379C8796BA8 /* ACEExpandableTextCell */ = {
+			isa = PBXGroup;
+			children = (
+				49BC5FA0D3E26F86B155AF7B76D2664A /* ACEExpandableTextCell */,
+				105DA4C901725B6E610F5838CADA3835 /* Support Files */,
+			);
+			name = ACEExpandableTextCell;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		43FB0679B91971F566817D46F37BE0CB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EFCC38B3A8C4179A57E111896FC5343 /* SZTextView.xcconfig */,
+				5673A484A4F1C0A8726F5F879F53D16F /* SZTextView-dummy.m */,
+				07E52F4FA05DB239A30C1D6D43A1A95C /* SZTextView-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SZTextView";
+			sourceTree = "<group>";
+		};
+		49BC5FA0D3E26F86B155AF7B76D2664A /* ACEExpandableTextCell */ = {
+			isa = PBXGroup;
+			children = (
+				49B17D98735705117EF68D4905EE81BB /* ACEExpandableTextCell.h */,
+				040757257D5C6D25CF988BDB86F61D9E /* ACEExpandableTextCell.m */,
+			);
+			path = ACEExpandableTextCell;
+			sourceTree = "<group>";
+		};
+		7D46C5FDA211A81E82EE63680C6E72E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87C001284BE2318941465EBC230A5086 /* SZTextView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E757E00E0641C5C01A6EF8FCAE7FCA40 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				7D46C5FDA211A81E82EE63680C6E72E9 /* Pods */,
+				FEE7D97E382A64277029611E623F18CA /* Products */,
+				10FA22CE66EA8E2398CC78A2D5801EA0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		87C001284BE2318941465EBC230A5086 /* SZTextView */ = {
+			isa = PBXGroup;
+			children = (
+				B71F0603FD82A9C332E94EBFD00C4755 /* SZTextView.h */,
+				6A64EE2E07CB249BD8F9995DDB2FC211 /* SZTextView.m */,
+				43FB0679B91971F566817D46F37BE0CB /* Support Files */,
+			);
+			path = SZTextView;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E757E00E0641C5C01A6EF8FCAE7FCA40 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CE104910BEDDA3FF0F74379C8796BA8 /* ACEExpandableTextCell */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FEE7D97E382A64277029611E623F18CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B5489780A032D7B132D040CBC8E4DE7 /* libACEExpandableTextCell.a */,
+				ACF28DB2228BA42FC30E61296199D278 /* libPods-ACEExpandableTextCellDemo.a */,
+				D2CC8FD924C05238A08EA98B7A94D903 /* libSZTextView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AC9BA0ACB311BAFFF8C491937AA7C4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F7869BA954F6E1D8E9342466E8D9A49 /* ACEExpandableTextCell.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F33086C9B0A142F0DDFE723876D2048 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2FC575CC8C94B40323AA810012774A6 /* SZTextView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		39A757413E67F3A681AED4C4ADDF73F6 /* Pods-ACEExpandableTextCellDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9BA3B42B243C172471BDC9B6D0BE7FD /* Build configuration list for PBXNativeTarget "Pods-ACEExpandableTextCellDemo" */;
+			buildPhases = (
+				578980EA7E3E2DC64C5BCE163ECC1D76 /* Sources */,
+				9B1F69F28E4A8A061215EB68F21C6573 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				996C18F7DF346E738649391EB5D76FB3 /* PBXTargetDependency */,
+				DD7BED0EE370E2220B8BD92F64A7E729 /* PBXTargetDependency */,
+			);
+			name = "Pods-ACEExpandableTextCellDemo";
+			productName = "Pods-ACEExpandableTextCellDemo";
+			productReference = ACF28DB2228BA42FC30E61296199D278 /* libPods-ACEExpandableTextCellDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4F15FBF7D83347A28690B72430BEB95B /* SZTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ECE719FA6F46A7095A747E7248837C3 /* Build configuration list for PBXNativeTarget "SZTextView" */;
+			buildPhases = (
+				B6FB49C8ED59036A9BE52FA7873C4A32 /* Sources */,
+				5D2233320F84BB4CF15B278492B04BFB /* Frameworks */,
+				1F33086C9B0A142F0DDFE723876D2048 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SZTextView;
+			productName = SZTextView;
+			productReference = D2CC8FD924C05238A08EA98B7A94D903 /* libSZTextView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8966C42FBDF19BF9A30293D6BD0E1739 /* ACEExpandableTextCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3B36117D721414B79A15F4E44D7C4EC /* Build configuration list for PBXNativeTarget "ACEExpandableTextCell" */;
+			buildPhases = (
+				922FF7ECE5F3228A3E317DE7947432B4 /* Sources */,
+				662A1A3452D871FCD1FD5C3B3941F196 /* Frameworks */,
+				0AC9BA0ACB311BAFFF8C491937AA7C4C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB2657D76FEB8089378954E092C44CCD /* PBXTargetDependency */,
+			);
+			name = ACEExpandableTextCell;
+			productName = ACEExpandableTextCell;
+			productReference = 6B5489780A032D7B132D040CBC8E4DE7 /* libACEExpandableTextCell.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FEE7D97E382A64277029611E623F18CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8966C42FBDF19BF9A30293D6BD0E1739 /* ACEExpandableTextCell */,
+				39A757413E67F3A681AED4C4ADDF73F6 /* Pods-ACEExpandableTextCellDemo */,
+				4F15FBF7D83347A28690B72430BEB95B /* SZTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		578980EA7E3E2DC64C5BCE163ECC1D76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				771A144919BBDEEC0A184A64AA145A9A /* Pods-ACEExpandableTextCellDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		922FF7ECE5F3228A3E317DE7947432B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0A34CEF089C2FC29C8BD86192DAE73 /* ACEExpandableTextCell-dummy.m in Sources */,
+				FFEC7B87D1C2BFF13CF91A7D064A79DB /* ACEExpandableTextCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FB49C8ED59036A9BE52FA7873C4A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302F7F908FBF3BDEC5471F5AB35104D7 /* SZTextView-dummy.m in Sources */,
+				5F0195C8D86B2A3C5B0F24BE250E646B /* SZTextView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		996C18F7DF346E738649391EB5D76FB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ACEExpandableTextCell;
+			target = 8966C42FBDF19BF9A30293D6BD0E1739 /* ACEExpandableTextCell */;
+			targetProxy = 17489A7DCA7FC54223A9D68D34BB0142 /* PBXContainerItemProxy */;
+		};
+		AB2657D76FEB8089378954E092C44CCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SZTextView;
+			target = 4F15FBF7D83347A28690B72430BEB95B /* SZTextView */;
+			targetProxy = 668E68AC18D3C278E2BC0D89A1F0C4AB /* PBXContainerItemProxy */;
+		};
+		DD7BED0EE370E2220B8BD92F64A7E729 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SZTextView;
+			target = 4F15FBF7D83347A28690B72430BEB95B /* SZTextView */;
+			targetProxy = 4B77508089D3D4045F5C7EA01B142FDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		023AAFF22368CD169EA5B371B4BDAF99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33716ABF73C870340347CCA844BD3091 /* ACEExpandableTextCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ACEExpandableTextCell/ACEExpandableTextCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2DAB80932F91222CB271E5D744B4A36C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33716ABF73C870340347CCA844BD3091 /* ACEExpandableTextCell.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ACEExpandableTextCell/ACEExpandableTextCell-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2ED52FBC3F12C8B6CB8978F17F023371 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EFCC38B3A8C4179A57E111896FC5343 /* SZTextView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SZTextView/SZTextView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C77E5C6D1A3502E799B0E8370D285CB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B97520434DEA04BFBE668753BF6C7A1D /* Pods-ACEExpandableTextCellDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CF7953F66E785E8876EB4D370D777D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E0DC7F65B87DF117DB12773CE51673C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EFCC38B3A8C4179A57E111896FC5343 /* SZTextView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SZTextView/SZTextView-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FCB0CAF9C52D8D833CC3C4FB8FBB02B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C070CF394AA6B1514DD02C3C2F29B0CF /* Pods-ACEExpandableTextCellDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ECE719FA6F46A7095A747E7248837C3 /* Build configuration list for PBXNativeTarget "SZTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0DC7F65B87DF117DB12773CE51673C8 /* Debug */,
+				2ED52FBC3F12C8B6CB8978F17F023371 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7953F66E785E8876EB4D370D777D50 /* Debug */,
+				79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9BA3B42B243C172471BDC9B6D0BE7FD /* Build configuration list for PBXNativeTarget "Pods-ACEExpandableTextCellDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77E5C6D1A3502E799B0E8370D285CB8 /* Debug */,
+				FCB0CAF9C52D8D833CC3C4FB8FBB02B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3B36117D721414B79A15F4E44D7C4EC /* Build configuration list for PBXNativeTarget "ACEExpandableTextCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				023AAFF22368CD169EA5B371B4BDAF99 /* Debug */,
+				2DAB80932F91222CB271E5D744B4A36C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

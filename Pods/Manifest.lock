@@ -1,0 +1,19 @@
+PODS:
+  - ACEExpandableTextCell (1.0.4):
+    - SZTextView
+  - SZTextView (1.2.2)
+
+DEPENDENCIES:
+  - ACEExpandableTextCell (from `./`)
+
+EXTERNAL SOURCES:
+  ACEExpandableTextCell:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  ACEExpandableTextCell: 02c1fdb5a57344f543c9536c8c985ffcca1ed8b2
+  SZTextView: 3a81174dce0710a9ab069bc73a813e6df53b9c82
+
+PODFILE CHECKSUM: 6ec900444ca736f5daf558248aeb1c340ae7eaaa
+
+COCOAPODS: 1.1.0.rc.2
