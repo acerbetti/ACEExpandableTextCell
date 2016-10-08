@@ -1,4 +1,5 @@
-# ACEExpandableTextCell
+ACEExpandableTextCell [![Build Status](https://travis-ci.org/acerbetti/ACEExpandableTextCell.svg?branch=master)](https://travis-ci.org/acerbetti/ACEExpandableTextCell)
+=====================
 
 ![](https://github.com/acerbetti/ACEExpandableTextCell/blob/master/demo.gif?raw=true)
 
