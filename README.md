@@ -1,4 +1,4 @@
-ACEExpandableTextCell [![Build Status](https://travis-ci.org/acerbetti/ACEExpandableTextCell.svg?branch=master)](https://travis-ci.org/acerbetti/ACEExpandableTextCell)
+ACEExpandableTextCell [![Build Status](https://travis-ci.org/acerbetti/ACEExpandableTextCell.svg?branch=master)](https://travis-ci.org/acerbetti/ACEExpandableTextCell) [![CocoaPods Compatible](https://img.shields.io/cocoapods/v/ACEExpandableTextCell.svg)](https://img.shields.io/cocoapods/v/ACEExpandableTextCell.svg) [![Platform](https://img.shields.io/cocoapods/p/ACEExpandableTextCell.svg?style=flat)](http://cocoadocs.org/docsets/ACEExpandableTextCell)
 =====================
 
 ![](https://github.com/acerbetti/ACEExpandableTextCell/blob/master/demo.gif?raw=true)
